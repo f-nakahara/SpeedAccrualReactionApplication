@@ -1,0 +1,44 @@
+.hide_box {
+  position: relative;
+  z-index: 2;
+  background-color: black;
+}
+
+.bar {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  top: 40%;
+  height: 20px;
+}
+
+.bar2 {
+  height: 20px;
+}
+
+.target {
+  position: absolute;
+  top: -10px;
+  z-index: 1;
+  right: 0;
+}
+
+.destination {
+  top: -10px;
+  z-index: 2;
+}
+
+.setting {
+  position: absolute;
+  z-index: 3;
+  bottom: 1%;
+  right: 5%;
+}
+
+.result {
+  position: absolute;
+  z-index: 3;
+  top: 1%;
+  right: 5%;
+}
+/*# sourceMappingURL=index.css.map */

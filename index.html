@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>速度見越反応検査器</title>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid bg-secondary main_container">
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col-4 hide_box"></div>
+                <div class="offset-7"></div>
+            </div>
+            <div class="row bar">
+                <div class="col-1 p-0 destination">
+                    <button class="btn bg-light btn-dark rounded-circle float-right des_icon">　</button>
+                </div>
+                <div class="col-11 bg-dark bar2"></div>
+                <button class="btn btn-danger rounded-circle target" id="target">　</button>
+            </div>
+            <div class="card setting">
+                <div class="card-header text-center">
+                    <h4>設定</h4>
+                </div>
+                <div class="card-body">
+                    <div class="form-inline">
+                        <button class="btn m-1 speed_btn">1秒</button>
+                        <button class="btn m-1 speed_btn">2秒</button>
+                        <button class="btn m-1 speed_btn">3秒</button>
+                        <button class="btn m-1 speed_btn">4秒</button>
+                        <button class="btn m-1 speed_btn">5秒</button>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <button class="btn" id="start_btn">スタート</button>
+                    <button class="btn" id="stop_btn">ストップ</button>
+                </div>
+            </div>
+            <div class="card result">
+                <div class="card-header text-center">
+                    <h4>結果</h4>
+                </div>
+                <div class="card-body text-center">
+                    <h3 id="result"></h3>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
