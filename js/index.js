@@ -23,7 +23,7 @@ function start() {
         $("#stop_btn").show()
         startTimer()
         $("#target").animate({
-            left: $(".des_icon").offset()["left"]
+            left: $(".des_icon").offset()["left"] + "px"
         }, speed, "linear")
     })
 }
@@ -61,7 +61,7 @@ function stop() {
             $("#result").text("+" + result.toFixed(2))
         $("#target").css({
             "left": "",
-            "right": "0"
+            "right": "0%"
         })
     })
 }
