@@ -78,6 +78,6 @@ $(function () {
     $("#stop_btn").hide()
     setResultScreen()
     settingSpeed()
-    start()
     stop()
+    start()
 })

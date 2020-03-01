@@ -18,14 +18,13 @@
 
 .target {
   position: absolute;
-  top: -10px;
+  top: -15px;
   z-index: 1;
   right: 0%;
-  -webkit-appearance: none;
 }
 
 .destination {
-  top: -10px;
+  top: -15px;
   z-index: 2;
 }
 
