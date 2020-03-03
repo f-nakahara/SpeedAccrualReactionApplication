@@ -31,6 +31,8 @@ function start() {
 // 速度設定
 function settingSpeed() {
     $(".speed_btn").on("click", function () {
+        $(".speed_btn").removeClass("btn-danger font-weight-bold");
+        $(this).addClass("btn-danger font-weight-bold");
         speed = Number($(this).text().split("秒")[0]) * 1000
     })
 }
